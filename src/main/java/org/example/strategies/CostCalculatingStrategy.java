@@ -1,7 +1,5 @@
 package org.example.strategies;
 
-public class CostCalculatingStrategy {
-    Double getCost() {
-        return null;
-    }
+public interface CostCalculatingStrategy {
+    Double getCost();
 }
